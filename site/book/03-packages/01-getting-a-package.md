@@ -83,8 +83,8 @@ pipeline:
 As you can see, this `Kptfile` doesn't have the `upstream` and `upstreamLock`
 sections. This is because there are two different package types in kpt:
 
-- **Independent package:** A package where the `Kptfile` has `upstream` defined.
-- **Dependent package:** A package where the `Kptfile` doesn’t have `upstream`
+- **Dependent package:** A package where the `Kptfile` has `upstream` defined.
+- **Independent package:** A package where the `Kptfile` doesn’t have `upstream`
   defined.
 
 In this case, the `mysql` subpackage is a _dependent package_. The upstream
